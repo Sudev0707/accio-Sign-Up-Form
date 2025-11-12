@@ -1,3 +1,3 @@
 # accio-Sign-Up-Form
 
-A simple signup form based on a Figma design, featuring fields for email, password, date of birth, gender, and terms checkbox. Includes input validation to ensure required fields are filled.
+A simple signup form that includes HTML, CSS, and JavaScript. The form features fields for email, password, confirm password, date of birth, gender selection (radio buttons), and a terms checkbox. It includes validation to ensure all required fields are completed before submission.
