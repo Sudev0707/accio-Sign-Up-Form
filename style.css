@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Inter", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+:root {
+  --btn-size-xlg: 50px;
+  --btn-size-lg: 40px;
+  --btn-size-md: 30px;
+  --btn-size-sm: 25px;
+}
+
+.signup-form {
+  padding: 40px;
+  /* width: 100%; */
+  margin: 5% auto;
+  text-align: left;
+  max-width: 800px;
+}
+
+.signup-form h1 {
+  font-size: var(--btn-size-xlg);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: white;
+  font-size: var(--btn-size-md);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #fff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #444; 
+}
+
+button {
+  width: 200px;
+  padding: 12px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+
+  cursor: pointer;
+  font-size: var(--btn-size-sm);
+}
+
+@media (max-width: 600px) {
+  .signup-form {
+    width: 90%;
+    padding: 30px;
+  }
+}
